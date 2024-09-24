@@ -1,0 +1,133 @@
+<html></html>
+    <head>
+        <title>Html Forms</title>
+    </head>
+    <body>
+
+    <!-- 
+    Tag
+    elements
+    Attributes     
+    -->
+    <!-- 
+    HTML FORMS => USER INPUT 
+
+form
+    label 
+    input - only open tag => void elements 
+          - text behaviour 
+    br    - only open tag => void elements 
+
+    type
+    placeholder => it makes water mark
+    required
+    pattern => 
+      quantiufy operators =>  +, ? , *
+      + => Min 1 - Max Infinite 
+           Ex : a+
+      * => Min 0 - Max Infinite
+           Ex: a*
+      ? => Min 0 - Max 1
+           Ex: a?
+    
+           Group Operatpors => [a-zA-Z0-9!@#$%^&&]+
+           RANGE            => {min,max}
+    -->
+
+    <h1>Personal Informations</h1>
+    <form>
+        <label>First Name:</label>
+        <input type="text" pattern="[A-Z]+[a-z]+[0-9]+" placeholder="Enter First Name" required>
+        <br><br>
+
+         <label>Last name</label>
+         <input type="text" placeholder="Enetr Last Name">
+         <br><br>
+
+         <label>Mobile No</label>
+         <input type="number" placeholder="Enter Mobile No">
+         <br><br>
+
+         <label>Email</label>
+         <input type="email" placeholder="Enter Email" required>
+         <br><br>
+
+         <label>Password</label>
+         <input type="password" placeholder="">
+         <br><br>
+
+         <label>Date</label>
+         <input type="date">
+         <br><br>
+
+         <label>Time</label>
+         <input type="time">
+         <br><br>
+
+         <label>Date & Time:</label>
+         <input type="datetime-local">
+         <br><br>
+
+         <label>Gender</label>
+         <input type="radio" value="Male" name="abc"> Male
+         <input type="radio" value="Female" name="abc"> Female
+         <input type="radio" value="Others" name="abc"> Others
+         <br><br>
+
+         <label>Skills</label>
+         <input type="checkbox" value="HTML"> HTML
+         <input type="checkbox"  value="CSS"> CSS
+         <input type="checkbox" value="JS"> JS
+         <input type="checkbox"  value="React JS"> react
+         <input type="checkbox" value="Python"> Python
+         <input type="checkbox"  value="SQL">SQL
+
+         <br><br>
+
+         <label>Enter URL</label>
+         <input type="url" required>
+         <br><br>
+
+         <label>Upload Doc:</label>
+         <input type="file">
+         <br><br>
+
+         <label>Choose Color</label>
+         <input type="color">
+         <br><br>
+
+         <label>Range</label>
+         <input type="range">
+
+<br><br>
+
+<label>Countries</label>
+<select>
+    <option>--Choose--</option>
+    <option value="India">India</option>
+    <option value="Japan">Japan</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+</select>
+<br><br>
+
+<label>Comment</label>
+<textarea cols="50" rows="10"></textarea>
+
+
+
+
+<br><br>
+         <input type="submit" value="Register">
+         <input type="reset" value="Clear">
+
+    </form>
+
+
+
+        
+
+
+
+    </body>
+</html>

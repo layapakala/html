@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+<style>
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+.item1{
+    background-color: aquamarine;
+    width: 400px;
+    /* padding-top: 10px;
+    padding-left: 30px; */
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    height: 150px;
+    overflow: scroll;
+}
+.item2{
+    background-color: turquoise;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+#head{
+    color: red;
+    text-align: center;
+}
+#head1{
+    color: greenyellow;
+    text-align: center;
+}
+.item3{
+    background-color: violet;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+#head2{
+    color: tomato;
+    text-align: center;
+}
+
+
+#data{
+    color: rgb(17, 53, 35);
+}
+</style>    </head>
+    <body>
+
+        <!-- 
+        CSS => Cacading styling sheets 
+            => used to design / presentation of the web page 
+            => CSS3 
+
+        3 ways 
+
+        01.Inline CSS[Avoid]  => Same tag
+           by using style attribute 
+
+        02.Internal CSS   =>  Same HTML documents
+            Using style tag in Head section
+
+            SELECTORS => 3 Selectore 
+                Id    => #
+                class => .
+                tag   =>
+                
+            .class_name / #id_name / tag_name{
+                property:value,
+
+            }
+
+            px => 1230px 
+            %  => 100%
+
+            * => selector 
+               => all the elemnts 
+
+
+        03.External CSS[Prefered] => New CSS file
+          file_name.css
+          
+          <link rel="stylesheet" href="file_name.css">  => head sections
+          
+        -->
+
+
+        <div class="item1">
+            <h1 id="head">HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit impedit deleniti autem corporis in repellat eum ex. Facilis iste nemo saepe ut doloremque earum eligendi minus delectus commodi ipsum animi, ullam autem qui ea, natus quae beatae? Culpa quas labore ullam. Labore debitis accusamus qui nisi sunt fuga tenetur odit. adipisicing elit. Aliquid optio deleniti officia ullam hic alias explicabo repellat nemo delectus rem.</p>
+            <button>Read More</button>
+        </div>
+
+        <div class="item2">
+            <h1 id="head1">CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio deleniti officia ullam hic alias explicabo repellat nemo delectus rem.</p>
+            <button>Read More</button>
+        </div>
+
+        
+
+
+    </body>
+</html>
